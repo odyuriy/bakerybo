@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html, body {
+    background: lightgoldenrodyellow;
+    scroll-behavior: smooth;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* main_styles */
+    .wrapper {
+        width: 1110px;
+        padding: 0 15px;
+        margin: 0 auto;
+        min-height: 100px;
+        position: relative;
+    }
+
+/* ***** B A K E R Y__B O ***** */
+    .bakery_bo {
+        background: #1B1D1F url("../images/bakery_bo.jpg") 50% / cover;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+    }
+
+    .logo {
+        padding-top: 68px;
+        text-align: left;
+        font-size: 36px;
+        font-family: 'Kaushan Script', cursive;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .logo__link {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* ***** M E N U ***** */
+    .bakerybo__list {
+        font-size: 0px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: right;
+        z-index: 5;
+    }
+
+    .bakerybo__list li {
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+    }
+
+    .bakerybo__list li a {
+        text-decoration: none;
+        padding: 80px 0px 0px 0px;
+        margin: 6px;
+        display: block;
+        color: white;
+    }
+
+    nav ul li a,
+    nav ul li a:after,
+    nav ul li a:before {
+        transition: all .5s;
+    }
+    nav ul li a:hover {
+        color: red;
+    }
+    nav.stroke ul li a {
+        position: relative;
+    }
+    nav.stroke ul li a:after {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 5px;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: red;
+        height: 1px;
+    }
+    nav.stroke ul li a:hover:after {
+        width: 100%;
+    }
+    
+    /* ***** T E X T ***** */
+    .bakerybo, .bakerybo_text {
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Nunito', sans-serif;
+    }
+    .bakerybo {
+        padding-top: 110px;
+        font-size: 50px;
+    }
+    .nutino_600{
+        font-size: 42px;
+    }
+    .bakerybo_text {
+        padding-top: 50px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    /* ***** B U T T O N ***** */
+    .bakerybo__button {
+        padding: 45px 0 170px 0;
+        font-size: 0px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+    .bakerybo__button li {
+        display: inline-block;
+        font-size: 20px;
+        position: relative;
+        font-weight: 600;
+    }
+    .bakerybo__button li a {
+        text-decoration: none;
+        height: 36px;
+        width: 156px;
+        display: block;
+        color: white;
+        border: 2px solid white;
+        padding-top: 18px;
+    }
+   .button_about {
+    padding-left: 30px;
+   }
+    .bakerybo__button li+li>a {
+        background: white;
+        color: #1B1D1F;
+    }
+
+    /* ***** B U T T O N _ A R R O W***** */
+    .button_arrow {
+        width: 20px;
+        height: 20px;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+        transform: rotate(45deg);
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+    }
+
+
+
+/* bread */
+    .bread {
+        background: white url("../images/bread.jpg") 50% / cover;
+    }
+
+/* bread_line */
+    .bread_line {
+        background: white;
+    }
+
+/* buy */
+    .buy {
+        background: #1B1D1F;
+    }
+
+/* facts */
+    .facts {
+        background: white;
+    }
+
+/* coupon */
+    .coupon {
+        background: #f9f7f7;
+    }
+
+/* footer */
+    footer {
+        background: #1B1D1F url("../images/footer.jpg") 50% / cover;
+    }

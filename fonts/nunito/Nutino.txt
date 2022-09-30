@@ -1,0 +1,8 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
+</style>
+
+
+CSS rules to specify families
+
+font-family: 'Nunito', sans-serif;
